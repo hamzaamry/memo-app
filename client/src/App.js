@@ -1,10 +1,14 @@
 import React from 'react'
-import { Container , AppBar , Typography , Grow , Grid} from '@material-ui/core'
+import { Container , AppBar , Typography , Grow , Grid} from '@mui/material'
 
 
-import Posts from './Posts'
+import Posts from './components/Posts/Posts.js'
 import Form from './components/Form/Form.js'
+/*import useStyles from './styles.js'*/
+
 const App = () => {
+
+  /*const classes = useStyles() ;*/
   return (
     <Container>
       <AppBar position="static" color='inherit'>
